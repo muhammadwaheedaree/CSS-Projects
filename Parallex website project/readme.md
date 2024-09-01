@@ -6,5 +6,5 @@ A simple parallax scrolling site with four scenic sections created using HTML an
 ## Usage
 
 - **View locally**: Clone the repo and open `index.html` in your browser.
-- **Live Demo**: [https://html-css-projects-woad.vercel.app/](#).
+- **Live Demo**: [https://html-css-projects-woad.vercel.app/](https://html-css-projects-woad.vercel.app/).
 
