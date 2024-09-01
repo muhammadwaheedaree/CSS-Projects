@@ -1,7 +1,0 @@
-{
-    "rewrites":{
-        {
-            "destination":"/index.html"
-        }
-    }
-}
