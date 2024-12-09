@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles//styles.css">
+  </head>
+  <body>
+    <div class="music-player">
+      <!-- Navigation -->
+      <nav class="nav-bar glass">
+        <div class="nav-content">
+          <div class="logo">MusicPlayer</div>
+          
+          <div class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Browse</a>
+            <a href="#" class="nav-link">Library</a>
+          </div>
+          
+          <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <span class="search-icon">🔍</span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Now Playing Section -->
+        <div class="now-playing">
+          <div class="album-container">
+            <div class="album-cover">
+              <img src="./image/image.jpg" alt="Album Cover">
+            </div>
+          </div>
+
+          <h2 class="song-title">Song Title</h2>
+          <p class="artist-name">Artist Name</p>
+
+          <!-- Progress Bar -->
+          <div class="progress-container">
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <div class="time-stamps">
+              <span>2:15</span>
+              <span>4:30</span>
+            </div>
+          </div>
+
+          <!-- Playback Controls -->
+          <div class="controls">
+            <button class="control-btn">🔀</button>
+            <button class="control-btn">⏮️</button>
+            <button class="control-btn play-btn">▶️</button>
+            <button class="control-btn">⏭️</button>
+            <button class="control-btn">🔁</button>
+          </div>
+
+          <!-- Volume Control -->
+          <div class="volume-control">
+            <span>🔈</span>
+            <input type="range" class="volume-slider" min="0" max="100" value="80">
+          </div>
+        </div>
+
+        <!-- Playlist Section -->
+        <div class="playlist">
+          <h3>Up Next</h3>
+          <div class="playlist-container glass">
+            <div class="playlist-item active">
+              <div class="song-info">
+                <h4>Currently Playing</h4>
+                <p>Artist Name</p>
+              </div>
+              <span>4:30</span>
+            </div>
+            <div class="playlist-item">
+              <div class="song-info">
+                <h4>Song Title 1</h4>
+                <p>Artist Name</p>
+              </div>
+              <span>3:45</span>
+            </div>
+            <div class="playlist-item">
+              <div class="song-info">
+                <h4>Song Title 2</h4>
+                <p>Artist Name</p>
+              </div>
+              <span>3:45</span>
+            </div>
+            <div class="playlist-item">
+              <div class="song-info">
+                <h4>Song Title 3</h4>
+                <p>Artist Name</p>
+              </div>
+              <span>3:45</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer glass">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="#" class="footer-link">About</a>
+            <a href="#" class="footer-link">Contact</a>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">🎵</a>
+            <a href="#" class="social-link">📱</a>
+            <a href="#" class="social-link">💬</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
